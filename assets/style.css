@@ -480,6 +480,23 @@ body {
   overflow: hidden;
 }
 
+.speaker-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  max-width: 75px;
+  height: 75px;
+  object-fit: contain;
+  z-index: 10;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.speaker-card:hover .speaker-logo {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 .speaker-card::before {
   content: "";
   position: absolute;
