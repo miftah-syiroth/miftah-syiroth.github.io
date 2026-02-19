@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "php",
+            "args": ["./artisan", "boost:mcp"]
+        },
+        "context7": {
+            "command": "npx",
+            "args": ["-y", "@upstash/context7-mcp", "--api-key", "ctx7sk-16d3e036-48f0-45cb-8c1d-8f5953fe01a3"]
+        }
+    }
+}

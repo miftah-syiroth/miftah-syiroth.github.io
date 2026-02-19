@@ -1,0 +1,5 @@
+/**
+ * Bootstrap CSS untuk layout guest, ele, sh.
+ * Tidak mengimpor Tailwind — hanya Bootstrap.
+ */
+@import 'bootstrap/dist/css/bootstrap.min.css';

@@ -1,0 +1,39 @@
+---
+alwaysApply: true
+---
+# CSS Framework
+- Use Bootstrap CSS 5.3 for all styling.
+- Prefer Bootstrap utility classes over custom CSS.
+- Use Bootstrap grid system and components.
+- Do not use Tailwind CSS or other CSS frameworks.
+- Use semantic HTML with Bootstrap classes.
+- Prefer Blade templates with Bootstrap classes.
+- Avoid inline styles.
+
+# Livewire 4 Rules (PRIMARY)
+- Use Livewire 4 for frontend interactivity and state management.
+- Prefer Livewire actions (`wire:click`, `wire:submit`, etc.) over JavaScript.
+- Use Livewire properties for state.
+- Use Livewire events for component communication.
+- Do not use JavaScript to replace Livewire functionality.
+
+# AlpineJS Rules (SECONDARY)
+- Use AlpineJS only for lightweight UI interactivity.
+- AlpineJS is allowed for:
+  - toggle UI state
+  - dropdown visibility
+  - modal visibility
+  - simple frontend-only state
+
+Do NOT use AlpineJS for:
+- server communication
+- business logic
+- data persistence
+
+These must be handled by Livewire.
+
+# JavaScript Rules
+- Avoid custom JavaScript unless absolutely necessary.
+- Prefer Livewire instead of JavaScript.
+- Prefer AlpineJS instead of vanilla JS for UI interactivity.
+- Do not use frontend frameworks like React, Vue, Angular.
