@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+Use Bootstrap 5.3 only.
+Avoid deprecated classes.
