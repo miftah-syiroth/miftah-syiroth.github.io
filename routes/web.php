@@ -9,7 +9,10 @@ Route::prefix('english-education')->group(function(){
 });
 
 Route::prefix('social-humanities')->group(function(){
-    Route::livewire('/', 'pages::social-humanities.index')->name('social-humanities.index');
+    Route::get('/', function(){
+        return redirect()->route('welcome');
+    })->name('social-humanities.index');
+    // Route::livewire('/', 'pages::social-humanities.index')->name('social-humanities.index');
 });
 
 
