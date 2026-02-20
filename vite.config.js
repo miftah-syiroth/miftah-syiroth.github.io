@@ -9,6 +9,7 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/css/bootstrap.css',
                 'resources/css/guest.css',
+                'resources/css/english-education.css',
                 'resources/js/app.js',
                 'resources/js/guest.js',
             ],
