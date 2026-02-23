@@ -1,0 +1,28 @@
+services:
+  php:
+    image: php:8.3-fpm
+    container_name: globe-php83
+    working_dir: /home/syiroth/Projects/uhb/globe
+    volumes:
+      - /home/syiroth/Projects/uhb/globe:/home/syiroth/Projects/uhb/globe
+    depends_on:
+      - redis
+    networks:
+      - globe-network
+    ports:
+      - "9001:9000"
+    command: >
+      sh -c "apt-get update && apt-get install -y libsqlite3-dev libzip-dev unzip git &&
+            docker-php-ext-install pdo pdo_sqlite zip &&
+            pecl install redis &&
+            docker-php-ext-enable redis &&
+            php-fpm"
+
+  redis:
+    image: redis:7-alpine
+    container_name: globe-redis
+    networks:
+      - globe-network
+
+networks:
+  globe-network:
