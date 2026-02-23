@@ -282,9 +282,9 @@ new #[Layout('layouts::english-education')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        <img src="{{ asset('assets/ele') }}/logo-uum.png" alt="Logo" class="speaker-logo" />
+                        <img src="{{ asset('assets/ele/logo-uum.png') }}" alt="Logo" class="speaker-logo" />
                         <div class="speaker-photo w-100">
-                            <img src="{{ asset('assets/ele') }}/keynote01.png"
+                            <img src="{{ asset('assets/ele/keynote01.png') }}"
                                 alt="Prof. Madya Dr. Hishamudin bin Isam" style="height: 200px" />
                         </div>
                         <div class="speaker-info">
@@ -312,10 +312,10 @@ new #[Layout('layouts::english-education')] class extends Component {
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        <img src="{{ asset('assets/ele') }}/logo-su.svg" alt="Superior University, Pakistan"
+                        <img src="{{ asset('assets/ele/logo-su.png') }}" alt="Superior University, Pakistan"
                             class="speaker-logo" />
                         <div class="speaker-photo w-100">
-                            <img src="{{ asset('assets/ele') }}/keynote04.png" alt="Zohaib Hassan Sain"
+                            <img src="{{ asset('assets/ele/keynote04.png') }}" alt="Zohaib Hassan Sain"
                                 style="height: 200px" />
                         </div>
                         <div class="speaker-info">
@@ -467,14 +467,14 @@ new #[Layout('layouts::english-education')] class extends Component {
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">4</div>
-                        <div class="date-number">Feb 27, 2026</div>
+                        <div class="date-number">Mar 06, 2026</div>
                         <div class="date-label">Abstract submission deadline</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">5</div>
-                        <div class="date-number">Mar 06, 2026</div>
+                        <div class="date-number">Mar 10, 2026</div>
                         <div class="date-label">Notification of abstract acceptance</div>
                     </div>
                 </div>
@@ -542,10 +542,10 @@ new #[Layout('layouts::english-education')] class extends Component {
                 </div>
             </div>
 
-            <div class="alert alert-info text-center mt-4" role="alert">
+            {{-- <div class="alert alert-info text-center mt-4" role="alert">
                 <strong>Special Offer:</strong> 5 (five) first presenters from
                 registered co-host are <strong>FREE</strong>
-            </div>
+            </div> --}}
 
             <div class="row justify-content-center my-5">
                 <div class="col-lg-6 col-md-8">
@@ -897,7 +897,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.superior.edu.pk/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-su.svg') }}" alt="Superior University" />
+                                <img src="{{ asset('assets/ele/logo-su.png') }}" alt="Superior University" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Superior University</h6>
@@ -906,10 +906,12 @@ new #[Layout('layouts::english-education')] class extends Component {
                     </a>
                 </div>
                 <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.national-u.edu.ph/nu-fairview/" target="_blank" class="text-decoration-none">
+                    <a href="https://www.national-u.edu.ph/nu-fairview/" target="_blank"
+                        class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-nuf.png') }}" alt="National University Fairview" />
+                                <img src="{{ asset('assets/ele/logo-nuf.png') }}"
+                                    alt="National University Fairview" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">National University Fairview</h6>
@@ -921,7 +923,8 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.vlu.edu.vn/en" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele') }}/logo-untan.png" alt="International Education Institute, Van Lang University" />
+                                <img src="{{ asset('assets/ele/logo-vanglang.png') }}"
+                                    alt="International Education Institute, Van Lang University" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -963,7 +966,8 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://umpo.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-umpo.png') }}" alt="Universitas Muhammadiyah Ponorogo" />
+                                <img src="{{ asset('assets/ele/logo-umpo.png') }}"
+                                    alt="Universitas Muhammadiyah Ponorogo" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -977,7 +981,8 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://unisda.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-unisda.png') }}" alt="Universitas Islam Darul 'Ulum Lamongan" />
+                                <img src="{{ asset('assets/ele/logo-unisda.png') }}"
+                                    alt="Universitas Islam Darul 'Ulum Lamongan" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -1033,7 +1038,8 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://uniska-bjm.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-uniska.png') }}" alt="Universitas Islam Kalimantan Muhammad Arsyad Al Banjari" />
+                                <img src="{{ asset('assets/ele/logo-uniska.png') }}"
+                                    alt="Universitas Islam Kalimantan Muhammad Arsyad Al Banjari" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -1043,7 +1049,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 co-host-col mb-4">
+                {{-- <div class="col-lg-2 co-host-col mb-4">
                     <a href="https://ustjogja.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
@@ -1056,7 +1062,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -1070,17 +1076,32 @@ new #[Layout('layouts::english-education')] class extends Component {
             </p>
 
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3">
-                        <a href="https://jurnal.untan.ac.id/index.php/JEEP" target="_blank"
-                            class="text-decoration-none">
-                            <img src="{{ asset('assets/ele') }}/journal-jeep.png" alt="JEEP Journal Logo"
-                                style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0">JEEP</h5>
-                            <p class="text-muted mb-0">
-                                Journal of English Education and Pedagogy
-                            </p>
-                        </a>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                        <img src="{{ asset('assets/ele/journal-jeep.png') }}" alt="JEEP Journal Logo"
+                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                        <h5 class="mb-0 text-white">JEEP</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                        <img src="{{ asset('assets/ele/journal-elsa.jpg') }}" alt="JEEP Journal Logo"
+                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                        <h5 class="mb-0 text-white">ELSA</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                        <img src="{{ asset('assets/ele/journal-jell.png') }}" alt="JEEP Journal Logo"
+                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                        <h5 class="mb-0 text-white">JELL</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                        <img src="{{ asset('assets/ele/journal-linguamedia.png') }}" alt="Linguamedia Journal Logo"
+                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                        <h5 class="mb-0 text-white">Linguamedia Journal</h5>
                     </div>
                 </div>
             </div>
@@ -1096,18 +1117,22 @@ new #[Layout('layouts::english-education')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8">
                     <div class="zoom-link-card">
-                        <div class="zoom-icon">
-                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"
-                                    fill="currentColor" />
-                            </svg>
-                        </div>
+                        <a target="_blank" class="text-decoration-none" href="https://seminar.uhb.ac.id/zoom/311978">
+                            <div class="zoom-icon">
+                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                        </a>
                         <h3 class="zoom-title">Meeting Link</h3>
                         <div class="zoom-placeholder">
                             <div class="zoom-link-box">
-                                <span class="zoom-link-text">Link will be available prior to the conference day</span>
+                                <a target="_blank" href="https://seminar.uhb.ac.id/zoom/311978">
+                                    <span class="zoom-link-text">https://seminar.uhb.ac.id/zoom/311978</span>
+                                </a>
                             </div>
                         </div>
                         <p class="zoom-description">
