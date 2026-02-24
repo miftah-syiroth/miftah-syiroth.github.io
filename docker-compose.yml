@@ -12,6 +12,14 @@ services:
     ports:
       - "9001:9000"
 
+  node:
+    image: node:20-alpine
+    container_name: globe-node
+    working_dir: /home/nginx/www/globe.uhb.ac.id
+    volumes:
+      - /home/nginx/www/globe.uhb.ac.id:/home/nginx/www/globe.uhb.ac.id
+    command: sh -c "npm install && npm run build"
+
   redis:
     image: redis:7-alpine
     container_name: globe-redis
