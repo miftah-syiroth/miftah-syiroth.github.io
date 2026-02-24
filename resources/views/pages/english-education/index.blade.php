@@ -1078,30 +1078,45 @@ new #[Layout('layouts::english-education')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
-                        <img src="{{ asset('assets/ele/journal-jeep.png') }}" alt="JEEP Journal Logo"
-                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
-                        <h5 class="mb-0 text-white">JEEP</h5>
+                        <a href="https://jurnal.untan.ac.id/index.php/JEEP" target="_blank"
+                            class="text-decoration-none">
+                            <img src="{{ asset('assets/ele/journal-jeep.png') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">JEEP</h5>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
-                        <img src="{{ asset('assets/ele/journal-elsa.jpg') }}" alt="JEEP Journal Logo"
-                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
-                        <h5 class="mb-0 text-white">ELSA</h5>
+                        <a href="https://jurnal.umko.ac.id/index.php/elsa" target="_blank"
+                            class="text-decoration-none">
+
+                            <img src="{{ asset('assets/ele/journal-elsa.jpg') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">ELSA</h5>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
-                        <img src="{{ asset('assets/ele/journal-jell.png') }}" alt="JEEP Journal Logo"
-                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
-                        <h5 class="mb-0 text-white">JELL</h5>
+                        <a href="https://ejournal.unma.ac.id/index.php/jell/index" target="_blank"
+                            class="text-decoration-none">
+                            <img src="{{ asset('assets/ele/journal-jell.png') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">JELL</h5>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
-                        <img src="{{ asset('assets/ele/journal-linguamedia.png') }}" alt="Linguamedia Journal Logo"
-                            style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
-                        <h5 class="mb-0 text-white">Linguamedia Journal</h5>
+                        <a href="https://jurnal.untagsmg.ac.id/index.php/linguamedia" target="_blank"
+                            class="text-decoration-none">
+
+                            <img src="{{ asset('assets/ele/journal-linguamedia.jpg') }}"
+                                alt="Linguamedia Journal Logo" style="max-height: 100px; object-fit: contain"
+                                class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">Linguamedia Journal</h5>
+                        </a>
                     </div>
                 </div>
             </div>
