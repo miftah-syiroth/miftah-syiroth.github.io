@@ -62,7 +62,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://uhb.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele') }}/logo-uhb.png" alt="Universitas Harapan Bangsa" />
+                                <img src="{{ asset('assets/ele/school/logo-uhb.png') }}" alt="Universitas Harapan Bangsa" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Universitas Harapan Bangsa</h6>
@@ -75,7 +75,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://unukalbar.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele') }}/logo-unu.png" alt="Universitas Nahdlatul Ulama" />
+                                <img src="{{ asset('assets/ele/school/logo-unu.png') }}" alt="Universitas Nahdlatul Ulama" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Universitas Nahdlatul Ulama</h6>
@@ -88,7 +88,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.umko.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele') }}/logo-umko.png" alt="Universitas Muhammadiyah" />
+                                <img src="{{ asset('assets/ele/school/logo-umko.png') }}" alt="Universitas Muhammadiyah" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Universitas Muhammadiyah</h6>
@@ -101,7 +101,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://poltesa.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele') }}/logo-poltesa.png" alt="Politeknik Negeri Sambas" />
+                                <img src="{{ asset('assets/ele/school/logo-poltesa.png') }}" alt="Politeknik Negeri Sambas" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Politeknik Negeri Sambas</h6>
@@ -114,7 +114,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.untan.ac.id/program-doktor/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele') }}/logo-untan.png" alt="Universitas Tanjungpura" />
+                                <img src="{{ asset('assets/ele/school/logo-untan.png') }}" alt="Universitas Tanjungpura" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -253,18 +253,12 @@ new #[Layout('layouts::english-education')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        <!-- <img
-                      src="{{ asset('assets/ele') }}/logo-uhb.png"
-                      alt="Logo"
-                      class="speaker-logo"
-                    /> -->
                         <div class="speaker-photo w-100">
-                            <img src="{{ asset('assets/ele') }}/opening-remarks.png" alt="Opening Remarks Speaker"
+                            <img src="{{ asset('assets/ele/opening-remarks.png') }}" alt="Opening Remarks Speaker"
                                 style="height: 250px" />
                         </div>
                         <div class="speaker-info">
                             <h5 class="speaker-name pb-0">Dr. Ummi Khaerati Syam, M. Pd.</h5>
-                            <!-- <p class="speaker-institution">[Institution/Organization]</p> -->
                         </div>
                     </div>
                 </div>
@@ -282,7 +276,7 @@ new #[Layout('layouts::english-education')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        <img src="{{ asset('assets/ele/logo-uum.png') }}" alt="Logo" class="speaker-logo" />
+                        <img src="{{ asset('assets/ele/school/logo-uum.png') }}" alt="Logo" class="speaker-logo" />
                         <div class="speaker-photo w-100">
                             <img src="{{ asset('assets/ele/keynote01.png') }}"
                                 alt="Prof. Madya Dr. Hishamudin bin Isam" style="height: 200px" />
@@ -291,17 +285,16 @@ new #[Layout('layouts::english-education')] class extends Component {
                             <h5 class="speaker-name pb-0">
                                 Prof. Madya Dr. Hishamudin bin Isam
                             </h5>
-                            <!-- <p class="speaker-title">Professor of Applied Linguistics</p> -->
                             <p class="speaker-institution">Universiti Utara Malaysia</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        <img src="{{ asset('assets/ele') }}/logo-lu.png" alt="Lucknow University"
+                        <img src="{{ asset('assets/ele/school/logo-lu.png') }}" alt="Lucknow University"
                             class="speaker-logo" />
                         <div class="speaker-photo w-100">
-                            <img src="{{ asset('assets/ele') }}/keynote02.png" alt="Prof. R. P. Singh"
+                            <img src="{{ asset('assets/ele/keynote02.png') }}" alt="Prof. R. P. Singh"
                                 style="height: 200px" />
                         </div>
                         <div class="speaker-info">
@@ -312,7 +305,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        <img src="{{ asset('assets/ele/logo-su.png') }}" alt="Superior University, Pakistan"
+                        <img src="{{ asset('assets/ele/school/logo-su.png') }}" alt="Superior University, Pakistan"
                             class="speaker-logo" />
                         <div class="speaker-photo w-100">
                             <img src="{{ asset('assets/ele/keynote04.png') }}" alt="Zohaib Hassan Sain"
@@ -542,10 +535,6 @@ new #[Layout('layouts::english-education')] class extends Component {
                 </div>
             </div>
 
-            {{-- <div class="alert alert-info text-center mt-4" role="alert">
-                <strong>Special Offer:</strong> 5 (five) first presenters from
-                registered co-host are <strong>FREE</strong>
-            </div> --}}
 
             <div class="row justify-content-center my-5">
                 <div class="col-lg-6 col-md-8">
@@ -873,7 +862,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.uum.edu.my/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-uum.png') }}" alt="Universitas Utara Malaysia" />
+                                <img src="{{ asset('assets/ele/school/logo-uum.png') }}" alt="Universitas Utara Malaysia" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Universiti Utara Malaysia</h6>
@@ -885,7 +874,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.lkouniv.ac.in/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-lu.png') }}" alt="Lucknow University" />
+                                <img src="{{ asset('assets/ele/school/logo-lu.png') }}" alt="Lucknow University" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Lucknow University</h6>
@@ -897,7 +886,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.superior.edu.pk/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-su.png') }}" alt="Superior University" />
+                                <img src="{{ asset('assets/ele/school/logo-su.png') }}" alt="Superior University" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">Superior University</h6>
@@ -910,7 +899,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                         class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-nuf.png') }}"
+                                <img src="{{ asset('assets/ele/school/logo-nuf.png') }}"
                                     alt="National University Fairview" />
                             </div>
                             <div class="co-host-info">
@@ -923,7 +912,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.vlu.edu.vn/en" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-vanglang.png') }}"
+                                <img src="{{ asset('assets/ele/school/logo-vanglang.png') }}"
                                     alt="International Education Institute, Van Lang University" />
                             </div>
                             <div class="co-host-info">
@@ -938,7 +927,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.uj.ac.za/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-uj.png') }}" alt="University Of Johannesburg" />
+                                <img src="{{ asset('assets/ele/school/logo-uj.png') }}" alt="University Of Johannesburg" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -952,7 +941,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://kasu.edu.ng/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-kasu.png') }}" alt="Kaduna State University" />
+                                <img src="{{ asset('assets/ele/school/logo-kasu.png') }}" alt="Kaduna State University" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -966,7 +955,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://umpo.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-umpo.png') }}"
+                                <img src="{{ asset('assets/ele/school/logo-umpo.png') }}"
                                     alt="Universitas Muhammadiyah Ponorogo" />
                             </div>
                             <div class="co-host-info">
@@ -981,7 +970,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://unisda.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-unisda.png') }}"
+                                <img src="{{ asset('assets/ele/school/logo-unisda.png') }}"
                                     alt="Universitas Islam Darul 'Ulum Lamongan" />
                             </div>
                             <div class="co-host-info">
@@ -996,7 +985,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://untagsmg.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-17.png') }}" alt="Universitas 17 Agustus 1945" />
+                                <img src="{{ asset('assets/ele/school/logo-17.png') }}" alt="Universitas 17 Agustus 1945" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -1010,7 +999,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://unma.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-umaja.png') }}" alt="Universitas Majalengka" />
+                                <img src="{{ asset('assets/ele/school/logo-umaja.png') }}" alt="Universitas Majalengka" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -1024,7 +1013,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://www.unwir.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-unwir.png') }}" alt="Universitas Wiralodra" />
+                                <img src="{{ asset('assets/ele/school/logo-unwir.png') }}" alt="Universitas Wiralodra" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -1038,7 +1027,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                     <a href="https://uniska-bjm.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-uniska.png') }}"
+                                <img src="{{ asset('assets/ele/school/logo-uniska.png') }}"
                                     alt="Universitas Islam Kalimantan Muhammad Arsyad Al Banjari" />
                             </div>
                             <div class="co-host-info">
@@ -1049,20 +1038,36 @@ new #[Layout('layouts::english-education')] class extends Component {
                         </div>
                     </a>
                 </div>
-                {{-- <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://ustjogja.ac.id/" target="_blank" class="text-decoration-none">
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://syekhmanshur.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/logo-ust.png') }}" alt="universitas sarjanawiyata tamansiswa" />
+                                <img src="{{ asset('assets/ele/school/logo-syekhmanshur.png') }}"
+                                    alt="Sekolah Tinggi Keguruan dan Ilmu Pendidikan Syekh Manshur" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
-                                    Universitas Sarjanawiyata Tamansiswa
+                                    Sekolah Tinggi Keguruan dan Ilmu Pendidikan Syekh Manshur
                                 </h6>
                             </div>
                         </div>
                     </a>
-                </div> --}}
+                </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://unwaha.ac.id/" target="_blank" class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/ele/school/logo-unwaha.png') }}"
+                                    alt="Universitas KH. A. Wahab Hasbullah" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">
+                                    Universitas KH. A. Wahab Hasbullah
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -1077,43 +1082,53 @@ new #[Layout('layouts::english-education')] class extends Component {
 
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
+                        <a href="https://globe.uhb.ac.id" target="_blank"
+                            class="text-decoration-none">
+                            <img src="{{ asset('assets/ele/journal/journal-globe.png') }}" alt="GLOBE Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">GLOBE</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
                         <a href="https://jurnal.untan.ac.id/index.php/JEEP" target="_blank"
                             class="text-decoration-none">
-                            <img src="{{ asset('assets/ele/journal-jeep.png') }}" alt="JEEP Journal Logo"
-                                style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <img src="{{ asset('assets/ele/journal/journal-jeep.png') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
                             <h5 class="mb-0 text-white">JEEP</h5>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
                         <a href="https://jurnal.umko.ac.id/index.php/elsa" target="_blank"
                             class="text-decoration-none">
 
-                            <img src="{{ asset('assets/ele/journal-elsa.jpg') }}" alt="JEEP Journal Logo"
-                                style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0 text-white">ELSA</h5>
+                            <img src="{{ asset('assets/ele/journal/journal-elsa.jpeg') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">Edukasi Lingua Sastra</h5>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
                         <a href="https://ejournal.unma.ac.id/index.php/jell/index" target="_blank"
                             class="text-decoration-none">
-                            <img src="{{ asset('assets/ele/journal-jell.png') }}" alt="JEEP Journal Logo"
-                                style="max-height: 100px; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <img src="{{ asset('assets/ele/journal/journal-jell.jpeg') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
                             <h5 class="mb-0 text-white">JELL</h5>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3" style="background-color: var(--primary-color)">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
                         <a href="https://jurnal.untagsmg.ac.id/index.php/linguamedia" target="_blank"
                             class="text-decoration-none">
 
-                            <img src="{{ asset('assets/ele/journal-linguamedia.jpg') }}"
-                                alt="Linguamedia Journal Logo" style="max-height: 100px; object-fit: contain"
+                            <img src="{{ asset('assets/ele/journal/journal-linguamedia.jpg') }}"
+                                alt="Linguamedia Journal Logo" style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
                                 class="mx-auto d-block mb-3" />
                             <h5 class="mb-0 text-white">Linguamedia Journal</h5>
                         </a>
