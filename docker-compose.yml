@@ -2,6 +2,7 @@ services:
   php:
     build: .
     container_name: globe-php83
+    restart: unless-stopped
     working_dir: /home/nginx/www/globe.uhb.ac.id
     volumes:
       - /home/nginx/www/globe.uhb.ac.id:/home/nginx/www/globe.uhb.ac.id
@@ -23,6 +24,7 @@ services:
   redis:
     image: redis:7-alpine
     container_name: globe-redis
+    restart: unless-stopped
     networks:
       - globe-network
 
