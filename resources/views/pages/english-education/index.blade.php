@@ -9,7 +9,6 @@ new #[Layout('layouts::english-education')] class extends Component {
 ?>
 
 <div>
-    <!-- Navigation -->
     <x-layouts::partials.guest.header>
         <li class="nav-item">
             <a class="nav-link" href="#about" data-section="about">About</a>
@@ -31,7 +30,6 @@ new #[Layout('layouts::english-education')] class extends Component {
         </li>
     </x-layouts::partials.guest.header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero-section">
         <div class="container">
             <div class="hero-content">
@@ -1083,7 +1081,7 @@ new #[Layout('layouts::english-education')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
-                        <a href="https://globe.uhb.ac.id" target="_blank"
+                        <a href="https://ejournal.uhb.ac.id/index.php/globeforum" target="_blank"
                             class="text-decoration-none">
                             <img src="{{ asset('assets/ele/journal/journal-globe.png') }}" alt="GLOBE Journal Logo"
                                 style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
@@ -1119,6 +1117,18 @@ new #[Layout('layouts::english-education')] class extends Component {
                             <img src="{{ asset('assets/ele/journal/journal-jell.jpeg') }}" alt="JEEP Journal Logo"
                                 style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
                             <h5 class="mb-0 text-white">JELL</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
+                        <a href="https://jurnal.untagsmg.ac.id/index.php/linguamedia" target="_blank"
+                            class="text-decoration-none">
+
+                            <img src="{{ asset('assets/ele/journal/journal-linguamedia.jpg') }}"
+                                alt="Linguamedia Journal Logo" style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
+                                class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">Linguamedia Journal</h5>
                         </a>
                     </div>
                 </div>

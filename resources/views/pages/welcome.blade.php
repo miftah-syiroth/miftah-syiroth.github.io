@@ -35,6 +35,14 @@ new #[Layout('layouts::guest')] class extends Component {
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 d-flex">
+                        <a href="{{ route('social-humanities.index') }}" wire:navigate class="card text-decoration-none w-100 border border-2 border-primary shadow-sm h-100">
+                            <div class="card-body d-flex flex-column h-100">
+                                <h5 class="card-title text-primary">Social Humanities</h5>
+                                <p class="card-text text-muted flex-grow-1">Economics, Management, and Law in Global Contexts</p>
+                            </div>
+                        </a>
+                    </div>
+                    {{-- <div class="col-12 col-md-6 col-lg-6 d-flex">
                         <div class="card card-unavailable w-100 border border-2 border-secondary h-100">
                             <div class="card-body d-flex flex-column h-100 position-relative">
                                 <span class="badge card-unavailable-badge">Coming Soon</span>
@@ -42,7 +50,7 @@ new #[Layout('layouts::guest')] class extends Component {
                                 <p class="card-text text-muted flex-grow-1">Economics, Management, and Law in Global Contexts</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
