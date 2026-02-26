@@ -10,6 +10,7 @@ export default defineConfig({
                 'resources/css/bootstrap.css',
                 'resources/css/guest.css',
                 'resources/css/english-education.css',
+                'resources/css/social-humanities.css',
                 'resources/js/app.js',
                 'resources/js/guest.js',
             ],
