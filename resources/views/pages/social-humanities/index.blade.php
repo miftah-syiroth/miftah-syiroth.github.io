@@ -23,9 +23,6 @@ new #[Layout('layouts::social-humanities')] class extends Component {
             <a class="nav-link" href="#registration" data-section="registration">Registration</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#papers" data-section="papers">Call for Papers</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="#contact" data-section="contact">Contact</a>
         </li>
     </x-layouts::partials.guest.header>
@@ -229,7 +226,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                     <button class="theme-scope-tab-btn btn" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseScope1"
-                        aria-expanded="false"
+                        aria-expanded="true"
                         aria-controls="collapseScope1">
                         Global Economics & Policy
                     </button>
@@ -249,7 +246,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                     </button>
                 </div>
                 <div class="mt-3">
-                    <div class="collapse theme-scope-panel" id="collapseScope1" data-bs-parent="#theme-scope-accordion">
+                    <div class="collapse show theme-scope-panel" id="collapseScope1" data-bs-parent="#theme-scope-accordion">
                         <div class="card card-body theme-scope-card-body">
                             <ul class="theme-scope-list">
                                 <li>International economics, global trade, regional integration, global supply chains</li>
@@ -311,8 +308,8 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">2</div>
-                        <div class="date-number">Jan 19, 2026</div>
-                        <div class="date-label">Call for paper</div>
+                        <div class="date-number">Feb 27, 2026</div>
+                        <div class="date-label">Notification of abstract acceptance</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
@@ -332,13 +329,29 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">5</div>
-                        <div class="date-number">Feb 27, 2026</div>
-                        <div class="date-label">Notification of abstract acceptance</div>
+                        <div class="date-number">Apr 3, 2026</div>
+                        <div class="date-label">
+                            Payment deadline
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">6</div>
+                        <div class="date-number">Apr 10, 2026</div>
+                        <div class="date-label">Presentation file submission</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="date-card date-card-highlight">
+                        <div class="date-step-number">7</div>
+                        <div class="date-number">Apr 10, 2026</div>
+                        <div class="date-label date-label-bold">Conference D-day</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="date-card">
+                        <div class="date-step-number">8</div>
                         <div class="date-number">Apr 30, 2026</div>
                         <div class="date-label">
                             Full paper submission and payment deadline
@@ -347,16 +360,11 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
-                        <div class="date-step-number">7</div>
-                        <div class="date-number">Apr 10, 2026</div>
-                        <div class="date-label">Presentation file submission</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="date-card date-card-highlight">
-                        <div class="date-step-number">8</div>
-                        <div class="date-number">Apr 17, 2026</div>
-                        <div class="date-label date-label-bold">Conference D-day</div>
+                        <div class="date-step-number">9</div>
+                        <div class="date-number">Apr 30 - May 30, 2026</div>
+                        <div class="date-label">
+                            Review and revision
+                        </div>
                     </div>
                 </div>
             </div>
@@ -372,30 +380,23 @@ new #[Layout('layouts::social-humanities')] class extends Component {
             <div class="row justify-content-center row-gap-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="pricing-card h-100 pb-0">
-                        <h5>Overseas Faculty</h5>
-                        <div class="price">$10 USD</div>
-                        <p class="text-muted">Non-Indonesian</p>
+                        <h5>Participant</h5>
+                        <div class="price">IDR 25K</div>
+                        <p class="text-muted">Participan Only</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="pricing-card h-100 pb-0">
-                        <h5>Overseas Student</h5>
-                        <div class="price">$5 USD</div>
-                        <p class="text-muted">Non-Indonesian</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="pricing-card h-100 pb-0">
-                        <h5>Indonesian Teacher/Lecturer</h5>
-                        <div class="price">IDR 150K</div>
-                        <p class="text-muted">Graduate Student</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="pricing-card h-100 pb-0">
-                        <h5>Indonesian Student</h5>
-                        <div class="price">IDR 50K</div>
+                        <h5>Student</h5>
+                        <div class="price">IDR 200K</div>
                         <p class="text-muted">Undergraduate</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card h-100 pb-0">
+                        <h5>Lecturer</h5>
+                        <div class="price">IDR 250K</div>
+                        <p class="text-muted">Lecture/Teacher/Researcher</p>
                     </div>
                 </div>
             </div>
@@ -447,8 +448,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
         </div>
     </section>
 
-    <!-- Call for Papers Section -->
-    <section id="papers" class="section">
+    {{-- <section id="papers" class="section">
         <div class="container">
             <h2 class="section-title">Call for Papers</h2>
             <p class="section-subtitle">
@@ -461,8 +461,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                         <div class="card-header">
                             <h3 class="mb-0">GLOBE Forum 2026</h3>
                             <p class="mb-0" style="opacity: 0.9">
-                                English Language Education for Sustainable Futures:
-                                Technology, Culture, and Global Competence
+                                Social Humanities: Economics, Management, and Law in Global Contexts
                             </p>
                         </div>
                         <div class="card-body p-4">
@@ -477,21 +476,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                                                 Paper Presentation
                                             </h5>
                                             <p class="mb-0">
-                                                Empirical or conceptual research aligned with the
-                                                theme
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <div class="card" style="border-left: 4px solid var(--accent-color)">
-                                        <div class="card-body">
-                                            <h5 style="color: var(--primary-color)">
-                                                Best Practice Showcase
-                                            </h5>
-                                            <p class="mb-0">
-                                                Innovative teaching models, classroom projects, or
-                                                digital materials
+                                                Normative, empirical, or conseptual research aligned with the theme
                                             </p>
                                         </div>
                                     </div>
@@ -534,10 +519,9 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <!-- Call for Co-Host Section -->
-    <section class="section bg-light-custom">
+    {{-- <section class="section bg-light-custom">
         <div class="container">
             <h2 class="section-title">Call for Co-Host</h2>
             <p class="section-subtitle">
@@ -692,7 +676,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
 
             <div class="alert alert-warning mt-4" role="alert">
                 <div class="text-center mb-3">
-                    <strong>Submission Deadline:</strong> January 30, 2026
+                    <strong>Submission Deadline:</strong> March 15, 2026
                 </div>
                 <p class="mb-2">
                     Interested institutions and journal partners are invited to submit a
@@ -702,7 +686,6 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 </p>
                 <ul class="mb-0">
                     <li>Institution name and address</li>
-                    <li>Type of co-host (A or B)</li>
                     <li>Contact person and email</li>
                     <li>Brief statement of commitment</li>
                 </ul>
@@ -715,14 +698,14 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="section">
         <div class="container">
             <h2 class="section-title">Co-Hosts</h2>
             <p class="section-subtitle text-warning">Official Co-Hosts</p>
 
-            <div class="row co-host-row">
+            {{-- <div class="row co-host-row">
                 <div class="col-lg-2 co-host-col mb-4">
                     <a href="https://www.uum.edu.my/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
@@ -939,11 +922,11 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
-    <section class="section bg-light-custom">
+    {{-- <section class="section bg-light-custom">
         <div class="container">
             <h2 class="section-title">PUBLICATION</h2>
             <p class="section-subtitle">
@@ -1016,10 +999,9 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <!-- Zoom Link Section -->
-    <section class="section">
+    <section class="section bg-light-custom">
         <div class="container">
             <h2 class="section-title">Zoom Meeting Link</h2>
             <p class="section-subtitle">Join us online for GLOBE Forum 2026</p>
@@ -1027,7 +1009,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8">
                     <div class="zoom-link-card">
-                        <a target="_blank" class="text-decoration-none" href="https://seminar.uhb.ac.id/zoom/311978">
+                        <a class="text-decoration-none" href="javascript:void(0)">
                             <div class="zoom-icon">
                                 <svg width="60" height="60" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1040,8 +1022,8 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                         <h3 class="zoom-title">Meeting Link</h3>
                         <div class="zoom-placeholder">
                             <div class="zoom-link-box">
-                                <a target="_blank" href="https://seminar.uhb.ac.id/zoom/311978">
-                                    <span class="zoom-link-text">https://seminar.uhb.ac.id/zoom/311978</span>
+                                <a href="javascript:void(0)">
+                                    <span class="zoom-link-text">Link will be available prior to the conference day</span>
                                 </a>
                             </div>
                         </div>
@@ -1051,7 +1033,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                         </p>
                         <div class="zoom-info">
                             <p class="mb-1">
-                                <strong>📅 Conference Date:</strong> April 9<sup>th</sup>,
+                                <strong>📅 Conference Date:</strong> April 10<sup>th</sup>,
                                 2026
                             </p>
                         </div>
@@ -1061,19 +1043,18 @@ new #[Layout('layouts::social-humanities')] class extends Component {
         </div>
     </section>
 
-    <!-- Footer -->
     <footer id="contact" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <h5>GLOBE Forum 2026</h5>
                     <p>
-                        Global Learning, Opportunities, and Bridges in English Education
+                        Global Learning, Opportunities, and Bridges for Excellence
                     </p>
                     <p>
                         Universitas Harapan Bangsa<br />
                         Purwokerto, Indonesia<br />
-                        March 26<sup>th</sup>, 2026
+                        April 10<sup>th</sup>, 2026
                     </p>
                 </div>
                 <div class="col-lg-4 mb-4">

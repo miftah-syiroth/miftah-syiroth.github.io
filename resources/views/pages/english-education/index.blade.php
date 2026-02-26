@@ -1134,13 +1134,13 @@ new #[Layout('layouts::english-education')] class extends Component {
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
-                        <a href="https://jurnal.untagsmg.ac.id/index.php/linguamedia" target="_blank"
+                        <a href="https://wej.unwir.ac.id/index.php/wej" target="_blank"
                             class="text-decoration-none">
 
-                            <img src="{{ asset('assets/ele/journal/journal-linguamedia.jpg') }}"
+                            <img src="{{ asset('assets/ele/journal/journal-wej.jpeg') }}"
                                 alt="Linguamedia Journal Logo" style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
                                 class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0 text-white">Linguamedia Journal</h5>
+                            <h5 class="mb-0 text-white">Wiralodra English Journal</h5>
                         </a>
                     </div>
                 </div>
