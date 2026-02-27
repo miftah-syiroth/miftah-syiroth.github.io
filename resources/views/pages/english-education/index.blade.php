@@ -1077,6 +1077,7 @@ new #[Layout('layouts::english-education')] class extends Component {
                 Selected international journals supporting the publication of seminar
                 papers
             </p>
+            <p class="mb-4"><span class="text-danger">Note:</span> Article Processing Charges (APC) will be applied in accordance with the official policies and regulations of the selected journal.</p>
 
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6 mb-4">
