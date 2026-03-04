@@ -1066,6 +1066,21 @@ new #[Layout('layouts::english-education')] class extends Component {
                         </div>
                     </a>
                 </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://unimus.ac.id/" target="_blank" class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/ele/school/logo-unimus.png') }}"
+                                    alt="Universitas Muhammadiyah Semarang" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">
+                                    Universitas Muhammadiyah Semarang
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
