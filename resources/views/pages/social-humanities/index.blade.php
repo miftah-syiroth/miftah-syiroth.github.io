@@ -182,11 +182,11 @@ new #[Layout('layouts::social-humanities')] class extends Component {
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        <img src="{{ asset('assets/ele/school/logo-uj.png') }}" alt="Logo"
+                        <img src="{{ asset('assets/sh/schools/johannesburg.png') }}" alt="Logo"
                             class="speaker-logo" />
                         <div class="speaker-photo w-100">
-                            {{-- <img src="{{ asset('assets/ele/keynote01.png') }}"
-                                alt="Prof.Cashandra Mara" style="height: 200px" /> --}}
+                            <img src="{{ asset('assets/sh/keynotes/cashandra.png') }}" alt="Prof.Cashandra Mara"
+                                style="height: 200px" />
                         </div>
                         <div class="speaker-info">
                             <h5 class="speaker-name pb-0">
@@ -198,15 +198,29 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="speaker-card">
-                        {{-- <img src="{{ asset('assets/ele/school/logo-lu.png') }}" alt="Lucknow University"
-                            class="speaker-logo" /> --}}
+                        <img src="{{ asset('assets/sh/schools/mara.png') }}" alt="Lucknow University"
+                            class="speaker-logo" />
                         <div class="speaker-photo w-100">
-                            {{-- <img src="{{ asset('assets/ele/keynote02.png') }}" alt="Prof. R. P. Singh"
-                                style="height: 200px" /> --}}
+                            <img src="{{ asset('assets/sh/keynotes/veera.png') }}" alt="Prof. R. P. Singh"
+                                style="height: 200px" />
                         </div>
                         <div class="speaker-info">
                             <h5 class="speaker-name">Professor Ts. Dr. Veera Pandiyan Kaliani Sundram</h5>
                             <p class="speaker-institution">Universiti Teknologi MARA, Malaysia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="speaker-card">
+                        <img src="{{ asset('assets/sh/schools/unissula.png') }}" alt="Lucknow University"
+                            class="speaker-logo" />
+                        <div class="speaker-photo w-100">
+                            <img src="{{ asset('assets/sh/keynotes/jawade.png') }}" alt="Prof. R. P. Singh"
+                                style="height: 200px" />
+                        </div>
+                        <div class="speaker-info">
+                            <h5 class="speaker-name">Prof. Dr. H. Jawade Hafidz, S.H., M.H.</h5>
+                            <p class="speaker-institution">Universitas Islam Sultan Agung, Indonesia</p>
                         </div>
                     </div>
                 </div>
@@ -223,60 +237,63 @@ new #[Layout('layouts::social-humanities')] class extends Component {
 
             <div id="theme-scope-accordion" class="theme-scope-tabs-wrapper">
                 <div class="theme-scope-tabs" role="group" aria-label="Theme scopes">
-                    <button class="theme-scope-tab-btn btn" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseScope1"
-                        aria-expanded="true"
-                        aria-controls="collapseScope1">
+                    <button class="theme-scope-tab-btn btn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseScope1" aria-expanded="true" aria-controls="collapseScope1">
                         Global Economics & Policy
                     </button>
-                    <button class="theme-scope-tab-btn btn" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseScope2"
-                        aria-expanded="false"
-                        aria-controls="collapseScope2">
+                    <button class="theme-scope-tab-btn btn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseScope2" aria-expanded="false" aria-controls="collapseScope2">
                         Strategic & International Management
                     </button>
-                    <button class="theme-scope-tab-btn btn" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseScope3"
-                        aria-expanded="false"
-                        aria-controls="collapseScope3">
+                    <button class="theme-scope-tab-btn btn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseScope3" aria-expanded="false" aria-controls="collapseScope3">
                         Global Business Law & Regulation
                     </button>
                 </div>
                 <div class="mt-3">
-                    <div class="collapse show theme-scope-panel" id="collapseScope1" data-bs-parent="#theme-scope-accordion">
+                    <div class="collapse show theme-scope-panel" id="collapseScope1"
+                        data-bs-parent="#theme-scope-accordion">
                         <div class="card card-body theme-scope-card-body">
                             <ul class="theme-scope-list">
-                                <li>International economics, global trade, regional integration, global supply chains</li>
-                                <li>Global macroeconomics and finance (stability, systemic risk, monetary/fiscal policy)</li>
+                                <li>International economics, global trade, regional integration, global supply chains
+                                </li>
+                                <li>Global macroeconomics and finance (stability, systemic risk, monetary/fiscal policy)
+                                </li>
                                 <li>Development economics, inequality, poverty, and structural transformation</li>
-                                <li>Digital economy: platforms, data economy, AI economy, and global creative economy</li>
+                                <li>Digital economy: platforms, data economy, AI economy, and global creative economy
+                                </li>
                                 <li>Public policy, industrial policy, and market regulation in a global context</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="collapse theme-scope-panel" id="collapseScope2" data-bs-parent="#theme-scope-accordion">
+                    <div class="collapse theme-scope-panel" id="collapseScope2"
+                        data-bs-parent="#theme-scope-accordion">
                         <div class="card card-body theme-scope-card-body">
                             <ul class="theme-scope-list">
-                                <li>Global business strategy, competitiveness, and sustainable competitive advantage</li>
-                                <li>Global human capital strategy, human resource management, international talent mobility, and cross-cultural organizational behavior</li>
-                                <li>Innovation, technology, and digital transformation management (AI, big data, fintech)</li>
+                                <li>Global business strategy, competitiveness, and sustainable competitive advantage
+                                </li>
+                                <li>Global human capital strategy, human resource management, international talent
+                                    mobility, and cross-cultural organizational behavior</li>
+                                <li>Innovation, technology, and digital transformation management (AI, big data,
+                                    fintech)</li>
                                 <li>Corporate governance, leadership, and risk management</li>
                                 <li>Entrepreneurship, global value chains for MSMEs, and business model innovation</li>
-                                <li>International marketing, omnichannel, cross-cultural consumer behavior, and global branding</li>
+                                <li>International marketing, omnichannel, cross-cultural consumer behavior, and global
+                                    branding</li>
                                 <li>Operations and supply chain management, resilience, and sustainability</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="collapse theme-scope-panel" id="collapseScope3" data-bs-parent="#theme-scope-accordion">
+                    <div class="collapse theme-scope-panel" id="collapseScope3"
+                        data-bs-parent="#theme-scope-accordion">
                         <div class="card card-body theme-scope-card-body">
                             <ul class="theme-scope-list">
-                                <li>International business law: contracts, investment, arbitration, and dispute resolution</li>
+                                <li>International business law: contracts, investment, arbitration, and dispute
+                                    resolution</li>
                                 <li>Corporate law, bankruptcy, competition, and consumer protection</li>
                                 <li>Intellectual property (IP) law, technology transfer, and innovation regulation</li>
-                                <li>Cyber law, data privacy, AI governance, and cross-jurisdictional digital compliance</li>
+                                <li>Cyber law, data privacy, AI governance, and cross-jurisdictional digital compliance
+                                </li>
                                 <li>International trade law, standards/certification, and ESG compliance</li>
                                 <li>Anti-corruption, AML/CFT, economic sanctions, and global compliance</li>
                             </ul>
@@ -302,36 +319,36 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                     <div class="date-card">
                         <div class="date-step-number">1</div>
                         <div class="date-number">Feb 25, 2026</div>
-                        <div class="date-label">Call for co-host</div>
+                        <div class="date-label">Call for Co-host</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">2</div>
-                        <div class="date-number">Feb 27, 2026</div>
-                        <div class="date-label">Notification of abstract acceptance</div>
+                        <div class="date-number">March 15, 2026</div>
+                        <div class="date-label">Co-host Acceptance Deadline</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">3</div>
-                        <div class="date-number">Mar 15, 2026</div>
-                        <div class="date-label">Co-host acceptance deadline</div>
+                        <div class="date-number">Mar 20, 2026</div>
+                        <div class="date-label">Abstract Submission Deadline</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">4</div>
-                        <div class="date-number">Mar 20, 2026</div>
-                        <div class="date-label">Abstract submission deadline</div>
+                        <div class="date-number">Mar 27, 2026</div>
+                        <div class="date-label">Notification of Abstract Acceptance</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">5</div>
-                        <div class="date-number">Apr 3, 2026</div>
+                        <div class="date-number">Apr 4, 2026</div>
                         <div class="date-label">
-                            Payment deadline
+                            Presentation Submission and Payment
                         </div>
                     </div>
                 </div>
@@ -339,39 +356,20 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                     <div class="date-card">
                         <div class="date-step-number">6</div>
                         <div class="date-number">Apr 10, 2026</div>
-                        <div class="date-label">Presentation file submission</div>
+                        <div class="date-label">Conference Date</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card date-card-highlight">
                         <div class="date-step-number">7</div>
-                        <div class="date-number">Apr 10, 2026</div>
-                        <div class="date-label date-label-bold">Conference D-day</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="date-card">
-                        <div class="date-step-number">8</div>
-                        <div class="date-number">Apr 30, 2026</div>
-                        <div class="date-label">
-                            Full paper submission and payment deadline
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="date-card">
-                        <div class="date-step-number">9</div>
-                        <div class="date-number">Apr 30 - May 30, 2026</div>
-                        <div class="date-label">
-                            Review and revision
-                        </div>
+                        <div class="date-number">Apr 25, 2026</div>
+                        <div class="date-label date-label-bold">Full Paper Submission Deadline</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Registration Fee Section -->
     <section id="registration" class="section bg-light-custom">
         <div class="container">
             <h2 class="section-title">Registration Fee</h2>
@@ -442,13 +440,15 @@ new #[Layout('layouts::social-humanities')] class extends Component {
             </div>
 
             <div class="text-center mt-4">
-                <a target="_blank" href="https://bit.ly/1stGLOBE_2026"
+                <a target="_blank" href="https://bit.ly/1stGLOBE_Participant"
+                    class="btn-primary-custom btn-lg text-white">Participant Only</a>
+                <a target="_blank" href="https://bit.ly/1stGLOBE_SocialHumanities"
                     class="btn-primary-custom btn-lg text-white">Register Now</a>
             </div>
         </div>
     </section>
 
-    {{-- <section id="papers" class="section">
+    <section id="papers" class="section">
         <div class="container">
             <h2 class="section-title">Call for Papers</h2>
             <p class="section-subtitle">
@@ -461,7 +461,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                         <div class="card-header">
                             <h3 class="mb-0">GLOBE Forum 2026</h3>
                             <p class="mb-0" style="opacity: 0.9">
-                                Social Humanities: Economics, Management, and Law in Global Contexts
+                                Economics, Management, and Law in Global Contexts
                             </p>
                         </div>
                         <div class="card-body p-4">
@@ -476,7 +476,8 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                                                 Paper Presentation
                                             </h5>
                                             <p class="mb-0">
-                                                Normative, empirical, or conseptual research aligned with the theme
+                                                Empirical or conceptual research aligned with the
+                                                theme
                                             </p>
                                         </div>
                                     </div>
@@ -519,269 +520,23 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 </div>
             </div>
         </div>
-    </section> --}}
-
-    {{-- <section class="section bg-light-custom">
-        <div class="container">
-            <h2 class="section-title">Call for Co-Host</h2>
-            <p class="section-subtitle">
-                Join us as an official co-host and expand academic collaboration
-            </p>
-
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 class="mb-0">Type A - Institutional Co-Host</h4>
-                        </div>
-                        <div class="card-body">
-                            <h5 style="color: var(--primary-color)">
-                                Contribution Requirements:
-                            </h5>
-                            <ul>
-                                <li>
-                                    Provide
-                                    <strong>at least five (5) internal presenters</strong>
-                                    from the co-host institution
-                                </li>
-                                <li>
-                                    Recommend <strong>speaker</strong> from the respective
-                                    co-host institution (optional)
-                                </li>
-                                <li>
-                                    Recommend <strong>moderator</strong> for the plenary session
-                                    (optional)
-                                </li>
-                            </ul>
-                            <h5 style="color: var(--primary-color)">
-                                Professional Responsibilities:
-                            </h5>
-                            <ul>
-                                <li>
-                                    Promote the seminar among faculty, students, and academic
-                                    communities.
-                                </li>
-                                <li>
-                                    Support the dissemination of the event’s academic and
-                                    outreach activities
-                                </li>
-                            </ul>
-                            <h5 style="color: var(--primary-color)" class="mt-3">
-                                Benefits:
-                            </h5>
-                            <ul>
-                                <li>Recognition as Official Institutional Co-Host</li>
-                                <li>
-                                    Recognition for faculty members as speakers and moderators
-                                </li>
-                                <li>Opportunities for International Awards</li>
-                                <li>Partnership Implementation Arrangement (IA)</li>
-                                <li>Access to collaborative research initiatives</li>
-                                <li>Certificates of appreciation</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 class="mb-0">Type B - Journal Partner Co-Host</h4>
-                        </div>
-                        <div class="card-body">
-                            <h5 style="color: var(--primary-color)">
-                                Contribution Requirements:
-                            </h5>
-                            <ul>
-                                <li>
-                                    Journal must be nationally accredited (minimum
-                                    <strong>SINTA 5</strong>) or indexed in an equivalent or
-                                    higher database
-                                </li>
-                                <li>
-                                    Provide publication opportunities for selected high-quality
-                                    papers presented at the 1st GLOBE Forum (GLOBE 2026)
-                                </li>
-                                <li>
-                                    Collaborate with the organizing committee to determine
-                                    review and selection mechanisms according to the journal’s
-                                    publication ethics and standards
-                                </li>
-                                <li>
-                                    Assign at least one (1) representative or editorial board
-                                    member to coordinate the review process or serve as a
-                                    reviewer for the forum submissions
-                                </li>
-                            </ul>
-                            <h5 style="color: var(--primary-color)">
-                                Professional Responsibilities:
-                            </h5>
-                            <ul>
-                                <li>
-                                    Participate in the review and screening process of selected
-                                    papers from the conference
-                                </li>
-                                <li>
-                                    Share the journal’s publication guidelines, technical
-                                    requirements, and author instructions with the organizing
-                                    committee and potential authors
-                                </li>
-                                <li>
-                                    Provide editorial guidance and coordinate with the committee
-                                    on publication schedules or special issue possibilities (if
-                                    applicable).
-                                </li>
-                                <li>
-                                    Promote the collaboration and published works through the
-                                    journal’s digital platform and institutional networks.
-                                </li>
-                            </ul>
-                            <h5 style="color: var(--primary-color)" class="mt-3">
-                                Benefits:
-                            </h5>
-                            <ul>
-                                <li>
-                                    Official recognition as an Academic Journal Partner of the
-                                    1<sup>st</sup>
-                                    GLOBE Forum (GLOBE 2026), with the journal's name and logo
-                                    featured in all publicity materials, proceedings, and the
-                                    official website.
-                                </li>
-                                <li>
-                                    Implementation Arrangement (IA) signed between the journal
-                                    and the organizing committee as formal evidence of
-                                    partnership and academic collaboration.
-                                </li>
-                                <li>
-                                    Opportunity for editorial board members to serve as
-                                    reviewers or session chairs during the forum.
-                                </li>
-                                <li>
-                                    Priority consideration for selected papers from conference
-                                    participants to be published in the partner journal.
-                                </li>
-                                <li>
-                                    Increased journal visibility and citation potential through
-                                    cross-promotion within national and international academic
-                                    networks.
-                                </li>
-                                <li>
-                                    Eligibility for recognition through the Outstanding
-                                    Publication Collaboration Award presented during the forum.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="alert alert-warning mt-4" role="alert">
-                <div class="text-center mb-3">
-                    <strong>Submission Deadline:</strong> March 15, 2026
-                </div>
-                <p class="mb-2">
-                    Interested institutions and journal partners are invited to submit a
-                    <strong>Letter of Intent (LoI)</strong> addressed to the
-                    <strong>Organizing Committee of GLOBE Forum 2026</strong>,
-                    including:
-                </p>
-                <ul class="mb-0">
-                    <li>Institution name and address</li>
-                    <li>Contact person and email</li>
-                    <li>Brief statement of commitment</li>
-                </ul>
-                <div class="text-center py-2 d-flex gap-2 justify-content-center">
-                    <a href="https://docs.google.com/document/d/1GHef3BcCLxX_xHXzrJlkBieu91vm7Xc1/edit?usp=sharing&ouid=106853013310927853848&rtpof=true&sd=true"
-                        target="_blank" class="btn btn-primary-custom text-white text-decoration-none">⬇️<b
-                            class="ms-2">Lol Template</b></a>
-                    <a target="_blank" href="https://forms.gle/Jg7jEaobpRF127ULA" class="btn btn-outline-custom">⬆️<b
-                            class="ms-2">Lol Submission</b></a>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+    </section>
 
     <section class="section">
         <div class="container">
             <h2 class="section-title">Co-Hosts</h2>
             <p class="section-subtitle text-warning">Official Co-Hosts</p>
 
-            {{-- <div class="row co-host-row">
+            <div class="row co-host-row">
                 <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.uum.edu.my/" target="_blank" class="text-decoration-none">
+                    <a href="https://unnes.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-uum.png') }}"
-                                    alt="Universitas Utara Malaysia" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">Universiti Utara Malaysia</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.lkouniv.ac.in/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-lu.png') }}" alt="Lucknow University" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">Lucknow University</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.superior.edu.pk/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-su.png') }}" alt="Superior University" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">Superior University</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.national-u.edu.ph/nu-fairview/" target="_blank"
-                        class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-nuf.png') }}"
-                                    alt="National University Fairview" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">National University Fairview</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.vlu.edu.vn/en" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-vanglang.png') }}"
-                                    alt="International Education Institute, Van Lang University" />
+                                <img src="{{ asset('assets/sh/schools/unnes.png') }}" alt="Kaduna State University" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
-                                    International Education Institute, Van Lang University
-                                </h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.uj.ac.za/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-uj.png') }}"
-                                    alt="University Of Johannesburg" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">
-                                    University Of Johannesburg
+                                    Universitas Negeri Semarang
                                 </h6>
                             </div>
                         </div>
@@ -791,8 +546,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                     <a href="https://kasu.edu.ng/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-kasu.png') }}"
-                                    alt="Kaduna State University" />
+                                <img src="{{ asset('assets/ele/school/logo-kasu.png') }}" alt="Kaduna State University" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
@@ -803,75 +557,14 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                     </a>
                 </div>
                 <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://umpo.ac.id/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-umpo.png') }}"
-                                    alt="Universitas Muhammadiyah Ponorogo" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">
-                                    Universitas Muhammadiyah Ponorogo
-                                </h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://unisda.ac.id/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-unisda.png') }}"
-                                    alt="Universitas Islam Darul 'Ulum Lamongan" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">
-                                    Universitas Islam Darul 'Ulum Lamongan
-                                </h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
                     <a href="https://untagsmg.ac.id/" target="_blank" class="text-decoration-none">
                         <div class="co-host-card">
                             <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-17.png') }}"
-                                    alt="Universitas 17 Agustus 1945" />
+                                <img src="{{ asset('assets/ele/school/logo-17.png') }}" alt="Universitas 17 Agustus 1945" />
                             </div>
                             <div class="co-host-info">
                                 <h6 class="co-host-name">
                                     Universitas 17 Agustus 1945 Semarang
-                                </h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://unma.ac.id/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-umaja.png') }}"
-                                    alt="Universitas Majalengka" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">
-                                    Universitas Majalengka
-                                </h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://www.unwir.ac.id/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-unwir.png') }}"
-                                    alt="Universitas Wiralodra" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">
-                                    Universitas Wiralodra
                                 </h6>
                             </div>
                         </div>
@@ -907,99 +600,9 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 co-host-col mb-4">
-                    <a href="https://unwaha.ac.id/" target="_blank" class="text-decoration-none">
-                        <div class="co-host-card">
-                            <div class="co-host-logo">
-                                <img src="{{ asset('assets/ele/school/logo-unwaha.png') }}"
-                                    alt="Universitas KH. A. Wahab Hasbullah" />
-                            </div>
-                            <div class="co-host-info">
-                                <h6 class="co-host-name">
-                                    Universitas KH. A. Wahab Hasbullah
-                                </h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div> --}}
-        </div>
-    </section>
-
-    {{-- <section class="section bg-light-custom">
-        <div class="container">
-            <h2 class="section-title">PUBLICATION</h2>
-            <p class="section-subtitle">
-                Selected international journals supporting the publication of seminar
-                papers
-            </p>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3 overflow-hidden"
-                        style="background-color: var(--primary-color)">
-                        <a href="https://globe.uhb.ac.id" target="_blank" class="text-decoration-none">
-                            <img src="{{ asset('assets/ele/journal/journal-globe.png') }}" alt="GLOBE Journal Logo"
-                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
-                                class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0 text-white">GLOBE</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3 overflow-hidden"
-                        style="background-color: var(--primary-color)">
-                        <a href="https://jurnal.untan.ac.id/index.php/JEEP" target="_blank"
-                            class="text-decoration-none">
-                            <img src="{{ asset('assets/ele/journal/journal-jeep.png') }}" alt="JEEP Journal Logo"
-                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
-                                class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0 text-white">JEEP</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3 overflow-hidden"
-                        style="background-color: var(--primary-color)">
-                        <a href="https://jurnal.umko.ac.id/index.php/elsa" target="_blank"
-                            class="text-decoration-none">
-
-                            <img src="{{ asset('assets/ele/journal/journal-elsa.jpeg') }}" alt="JEEP Journal Logo"
-                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
-                                class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0 text-white">Edukasi Lingua Sastra</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3 overflow-hidden"
-                        style="background-color: var(--primary-color)">
-                        <a href="https://ejournal.unma.ac.id/index.php/jell/index" target="_blank"
-                            class="text-decoration-none">
-                            <img src="{{ asset('assets/ele/journal/journal-jell.jpeg') }}" alt="JEEP Journal Logo"
-                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
-                                class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0 text-white">JELL</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="card h-100 text-center p-3 overflow-hidden"
-                        style="background-color: var(--primary-color)">
-                        <a href="https://jurnal.untagsmg.ac.id/index.php/linguamedia" target="_blank"
-                            class="text-decoration-none">
-
-                            <img src="{{ asset('assets/ele/journal/journal-linguamedia.jpg') }}"
-                                alt="Linguamedia Journal Logo"
-                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain"
-                                class="mx-auto d-block mb-3" />
-                            <h5 class="mb-0 text-white">Linguamedia Journal</h5>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
     <section class="section bg-light-custom">
         <div class="container">
@@ -1023,7 +626,8 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                         <div class="zoom-placeholder">
                             <div class="zoom-link-box">
                                 <a href="javascript:void(0)">
-                                    <span class="zoom-link-text">Link will be available prior to the conference day</span>
+                                    <span class="zoom-link-text">Link will be available prior to the conference
+                                        day</span>
                                 </a>
                             </div>
                         </div>
