@@ -1,8 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-        <a class="navbar-brand" wire:navigate href="{{ route('welcome') }}">
-            <img src="{{ asset('assets/ele') }}/logo-uhb.png" alt="GLOBE 2026 Logo" />
-            GLOBE 2026
+        <a class="navbar-brand p-0" wire:navigate href="{{ route('welcome') }}">
+            <img src="{{ asset('assets/logo-globe.png') }}" alt="GLOBE Logo" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -15,18 +15,18 @@
     <link rel="manifest" href="{{ asset('site.webmanifest') }}">
 
     {{-- Bootstrap + guest custom CSS via Vite --}}
-    @vite(['resources/css/bootstrap.css', 'resources/css/guest.css', 'resources/js/guest.js'])
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet" />
-
+    rel="stylesheet" />
+    
     @livewireStyles
+    @vite(['resources/css/bootstrap.css', 'resources/css/guest.css', 'resources/js/guest.js'])
     @stack('styles')
 </head>
 
-<body>
+<body @if(isset($theme) && $theme) class="theme-{{ $theme }}" @endif>
 
     {{ $slot }}
 
