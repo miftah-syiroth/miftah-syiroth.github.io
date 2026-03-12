@@ -332,21 +332,21 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">3</div>
-                        <div class="date-number">Mar 20, 2026</div>
+                        <div class="date-number">Mar 30, 2026</div>
                         <div class="date-label">Abstract Submission Deadline</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">4</div>
-                        <div class="date-number">Mar 27, 2026</div>
+                        <div class="date-number">Apr 01, 2026</div>
                         <div class="date-label">Notification of Abstract Acceptance</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="date-card">
                         <div class="date-step-number">5</div>
-                        <div class="date-number">Apr 4, 2026</div>
+                        <div class="date-number">Apr 06, 2026</div>
                         <div class="date-label">
                             Presentation Submission and Payment
                         </div>
@@ -522,7 +522,7 @@ new #[Layout('layouts::social-humanities')] class extends Component {
         </div>
     </section>
 
-    <section class="section">
+    <section class="section bg-light-custom">
         <div class="container">
             <h2 class="section-title">Co-Hosts</h2>
             <p class="section-subtitle text-warning">Official Co-Hosts</p>
@@ -599,6 +599,146 @@ new #[Layout('layouts::social-humanities')] class extends Component {
                             </div>
                         </div>
                     </a>
+                </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://www.uj.ac.za/" target="_blank" class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/sh/schools/johannesburg.png') }}" alt="University Of Johannesburg" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">
+                                    University Of Johannesburg
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://www.national-u.edu.ph/nu-fairview/" target="_blank"
+                        class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/ele/school/logo-nuf.png') }}"
+                                    alt="National University Fairview" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">National University Fairview</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://www.vlu.edu.vn/en" target="_blank" class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/ele/school/logo-vanglang.png') }}"
+                                    alt="International Education Institute, Van Lang University" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">
+                                    International Education Institute, Van Lang University
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://unma.ac.id/" target="_blank" class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/ele/school/logo-umaja.png') }}" alt="Universitas Majalengka" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">
+                                    Universitas Majalengka
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://unwiku.ac.id/" target="_blank" class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/sh/schools/unwiku.png') }}" alt="Universitas Wijayakusuma Purwokerto" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">
+                                    Universitas Wijayakusuma Purwokerto
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 co-host-col mb-4">
+                    <a href="https://anharhariz.org/" target="_blank" class="text-decoration-none">
+                        <div class="co-host-card">
+                            <div class="co-host-logo">
+                                <img src="{{ asset('assets/sh/schools/anharhariz.png') }}" alt="Yayasan Anhar Shofwar Hariz" />
+                            </div>
+                            <div class="co-host-info">
+                                <h6 class="co-host-name">
+                                    Yayasan Anhar Shofwar Hariz
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">PUBLICATION</h2>
+            <p class="section-subtitle">
+                Selected international journals supporting the publication of seminar
+                papers
+            </p>
+            <p class="mb-4"><span class="text-danger">Note:</span> Article Processing Charges (APC) will be applied in accordance with the official policies and regulations of the selected journal.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
+                        <a href="https://ejournal.uhb.ac.id/index.php/globeforum" target="_blank"
+                            class="text-decoration-none">
+                            <img src="{{ asset('assets/sh/journal/journal-globe.png') }}" alt="GLOBE Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">GLOBE</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
+                        <a href="#" target="_blank"
+                            class="text-decoration-none">
+                            <img src="{{ asset('assets/sh/journal/1.jpg') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">LDC</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
+                        <a href="#" target="_blank"
+                            class="text-decoration-none">
+
+                            <img src="{{ asset('assets/sh/journal/2.jpg') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">JDLIR</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card h-100 text-center p-3 overflow-hidden" style="background-color: var(--primary-color)">
+                        <a href="#" target="_blank"
+                            class="text-decoration-none">
+                            <img src="{{ asset('assets/sh/journal/3.jpg') }}" alt="JEEP Journal Logo"
+                                style="max-height: 100px; max-width: 100%; height: auto; object-fit: contain" class="mx-auto d-block mb-3" />
+                            <h5 class="mb-0 text-white">Holistic</h5>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
