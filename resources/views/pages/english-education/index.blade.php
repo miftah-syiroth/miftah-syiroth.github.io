@@ -658,7 +658,9 @@ new #[Layout('layouts::english-education')] class extends Component {
                                 <a target="_blank"
                                     href="https://docs.google.com/document/d/19sNzldO1mLnLFhhC-V7Y9pUgEOPCyn0x/edit?usp=sharing&ouid=106853013310927853848&rtpof=true&sd=true"
                                     class="btn-primary-custom me-2 text-white">Full Paper Template</a>
-                                <a href="#" class="btn-primary-custom me-2 text-white">Presentation Template</a>
+                                <a target="_blank"
+                                    href="https://docs.google.com/presentation/d/1bEh8L94g0HK4N-cUVXi1DKA5iCWU_yKM/edit?usp=sharing&ouid=106853013310927853848&rtpof=true&sd=true"
+                                    class="btn-primary-custom me-2 text-white">Presentation Template</a>
                                 <a href="https://forms.gle/ksnsQnvfdwPSx6MM7" target="_blank"
                                     class="btn btn-outline-custom">Full Paper Submission Link</a>
                             </div>
